@@ -79,7 +79,7 @@ module Icalendar
     optional_property :attach, :attachment, :attachments
 
     # Defines an attendee for this calendar item
-    ical_multiline_property :attendee, :attendee, :attendees
+    #ical_multiline_property :attendee, :attendee, :attendees
 
     # Defines the categories for a calendar component (school, work...)
     optional_property :categories, :category, :categories
